@@ -1,0 +1,58 @@
+@font-face {
+    font-family: STHupo;
+    src: url(sthupo.ttf) format('truetype');
+}
+
+* {
+    background-color: #303030;
+    color: white;
+    font-family: STHupo, serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #FFD700;
+    font-size: 5em;
+    margin-bottom: .5em;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    display: inline-block;
+    margin: 1em 2em;
+}
+
+a {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+a:hover * {
+    color: #FFD700;
+}
+
+svg {
+    width: 3em;
+    height: 3em;
+}
