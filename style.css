@@ -4,9 +4,8 @@
 }
 
 * {
-    background-color: #303030;
-    color: white;
-    font-family: STHupo, serif;
+    background-color: #ffc000;
+    color: #333f50;
     margin: 0;
     padding: 0;
 }
@@ -28,9 +27,9 @@ html, body {
 }
 
 h1 {
-    color: #FFD700;
-    font-size: 5em;
-    margin-bottom: .5em;
+    font-family: STHupo, serif;
+    font-size: 3em;
+    margin-bottom: .3em;
     font-weight: lighter;
 }
 
@@ -49,7 +48,7 @@ a {
 }
 
 a:hover * {
-    color: #FFD700;
+    color: #00000;
 }
 
 svg {
