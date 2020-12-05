@@ -28,9 +28,10 @@ html, body {
 
 h1 {
     font-family: STHupo, serif;
-    font-size: 3em;
+    font-size: 1.6em;
     margin-bottom: .3em;
     font-weight: lighter;
+    letter-spacing: .1em;
 }
 
 ul {
@@ -39,7 +40,7 @@ ul {
 
 ul > li {
     display: inline-block;
-    margin: 1em 2em;
+    margin: 1em;
 }
 
 a {
@@ -47,11 +48,17 @@ a {
     vertical-align: middle;
 }
 
+a * {
+    padding: 10px;
+}
+
 a:hover * {
-    color: #00000;
+    border-radius: 1em;
+    background-color: #333f50;
+    color: #ffc000;
 }
 
 svg {
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
 }
